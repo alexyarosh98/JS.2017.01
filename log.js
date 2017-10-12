@@ -1,5 +1,5 @@
-﻿for (var i = 0 ; i < data.length; i++) {
-	console.log("data[%s] = %s", i + 1 , checkValue(data[i]));
+﻿for (var i = 0; i < data.length; i++) {
+	console.log("data[%s] = %s", i + 1, checkValue(data[i]));
 }
 
 function checkValue(value) {
@@ -7,10 +7,10 @@ function checkValue(value) {
 	if (typeof(value) == "number") {
 		return value;
 	}
-	else if(value === null){
+	else if (value === null) {
 		return "значение не указано"
 	}
-	else if(typeof(value)=="undefined") {
+	else if (typeof(value) == "undefined") {
 		return "значение не определено"
 	}
 	else {
